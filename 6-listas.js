@@ -4,6 +4,15 @@ const listaDeDestinos = new Array(
     `São Paulo`,
     `Rio de Janeiro`
 );
-listaDeDestinos.push(`Curitiba`);// adicionando um item na lista
+
+// adicionando item na lista
+listaDeDestinos.push(`Curitiba`);
 console.log("Destinos possíveis:");
 console.log(listaDeDestinos);
+
+// excluindo item da lista
+listaDeDestinos.splice(1,1);
+console.log(listaDeDestinos);
+
+// exibindo itens selecionados de uma lista
+console.log(listaDeDestinos[1]);
