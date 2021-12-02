@@ -1,1 +1,1 @@
-Javascript
+JavaScript: primeiros passos com a linguagem
